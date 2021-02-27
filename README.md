@@ -1,4 +1,17 @@
 # RainbowHelix
-Intro to Maya Python Scripting pt. 1
+Intro to Python Scripting in Maya
+Created in Maya 2020
 
-Followed Isaac Oster's Tutorial: http://url9216.customers.gumroad.com/ls/click?upn=lxUZP-2FJG4eH36wcqVLdRrs5RdhIU3XLCi85P-2B37kdR4bHR4exjP8lMUOvHC3lkA8kMS-2FT81pLWNPB0VHKImIGg-3D-3DB3jP_cAMR8s6nZetInumM62iTmtRKtVboRN-2BMd0vSVsjG5GdNd0NnflkkldKf-2BmgYZashpWx2ihSyGTpFP6mwnqEzpfrnLxEoQdcz-2Fz3iofuBvKauz6Jot-2B-2BFo7tmgCXgY8oxydM6pBnc-2BxKiIS160KoVqTJ1R1jFlEpzXkTnRYN1sGTxIJ8Vmz3l2x52e2tM-2B7-2FM4EYA1lEnscOw-2BnN6DhggOPtVWYdPN7gdkwtFW2NmtLu7zTL31dVRwALqO1m95Sfhcrwtlinr-2FcYlKAsVVeOT-2Bv7gk5ddx6bolZBlgoyFqMfr6BXVoXUBrLf4uwgGanvzCvFDDymNqYQe7PXiI6B-2F55zJ2ByOC0MlBeCxad0KALu9rV9BKrY1J9vXP1cskqfs 
+Based on Isaac Oster's Tutorial: https://gumroad.com/isaacoster
+
+
+For this project, the goal was to experiment with python scripting in the Maya environment. 
+
+I learned how to do the following in Maya with scripts:
+- Create and animate objects
+- Create expressions
+- Set and get attributes
+- Use the "Distance Between" node
+- How to create a UI
+
+For the Rainbow Helix file, I iteratively created three spheres of differing sizes at the origin, grouped them, and moved them out to form a triangle, then added a freeze transform and rotation for the helix shape. I added an expression for the spin, and made the spheres move at different speeds for variety and rotated the group once more to create the circle. The colors were created using sin values and were offset for less uniformity. There were 72 iterations each rotated at 5 degrees in order to form a 360 degree shape.
